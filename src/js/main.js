@@ -1,4 +1,6 @@
+import checkInputText from './modules/checkInputText';
 import forms from './modules/forms';
+import mask from './modules/mask';
 import { modal, showWhenScrolling,showByTime } from './modules/modal';
 import sliders from './modules/sliders';
 
@@ -14,4 +16,7 @@ window.addEventListener('DOMContentLoaded',()=>{
   sliders('.feedback-slider-item','','.main-prev-btn','.main-next-btn');
 
   forms();
+  checkInputText('[name="name"]');
+  checkInputText('[name="message"]');
+  mask('[name="phone"]','+7 (___) ___ __ __');
 });
