@@ -98,6 +98,9 @@ h4 {
   border: 2px solid #c51abb;
   background-color: transparent;
 }
+.status{
+  text-align: center;
+}
 .fixed-gift {
   position: fixed;
   z-index: 19;
@@ -1376,7 +1379,8 @@ h4 {
     margin-right: -9rem;
   }
 }
-@media (max-width: 991px) {
+@media (max-w
+idth: 991px) {
   .header .burger {
     cursor: pointer;
   }

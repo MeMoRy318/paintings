@@ -1,3 +1,4 @@
+import forms from './modules/forms';
 import { modal, showWhenScrolling,showByTime } from './modules/modal';
 import sliders from './modules/sliders';
 
@@ -11,4 +12,6 @@ window.addEventListener('DOMContentLoaded',()=>{
 
   sliders('.main-slider-item','vertical');
   sliders('.feedback-slider-item','','.main-prev-btn','.main-next-btn');
+
+  forms();
 });
