@@ -2,6 +2,7 @@ import checkInputText from './modules/checkInputText';
 import forms from './modules/forms';
 import mask from './modules/mask';
 import { modal, showWhenScrolling,showByTime } from './modules/modal';
+import showMoreStyle from './modules/showMoreStyle';
 import sliders from './modules/sliders';
 
 window.addEventListener('DOMContentLoaded',()=>{
@@ -19,4 +20,6 @@ window.addEventListener('DOMContentLoaded',()=>{
   checkInputText('[name="name"]');
   checkInputText('[name="message"]');
   mask('[name="phone"]','+7 (___) ___ __ __');
+
+  showMoreStyle('.button-styles','.styles-2');
 });
