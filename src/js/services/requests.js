@@ -21,5 +21,4 @@ const getData = async (url) => {
   return response.json();
 };
 
-
 export { postData, getData };
