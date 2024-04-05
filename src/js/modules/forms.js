@@ -1,3 +1,5 @@
+import { postData } from '../services/requests';
+
 const forms = () => {
   const form = document.querySelectorAll('form');
   const uploads = document.querySelectorAll('[data-upload]');
@@ -21,18 +23,6 @@ const forms = () => {
     uploads.forEach(item => {
       item.innerText = 'Файл не выбран';
     });
-  };
-
-  const postData = async (url,data) => {
-    const response = await fetch(url,{
-      headers: {
-        'Content-type': 'application/json; charset=UTF-8',
-      },
-      method:'POST',
-      body: JSON.stringify(data)
-    });
-
-    return await response.json();
   };
 
   inputsUpload.forEach(input => {
