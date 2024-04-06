@@ -1,24 +1,46 @@
 {
-    "styles": [
-        {
-            "src": "assets/img/styles-5.jpg",
-            "title": "Пастелью",
-            "link": "#pastel"
-        },
-        {
-            "src": "assets/img/styles-6.jpg",
-            "title": "Поп-арт",
-            "link": "#popart"
-        },
-        {
-            "src": "assets/img/styles-7.png",
-            "title": "Фотомозаика",
-            "link": "#mozaika"
-        },
-        {
-            "src": "assets/img/styles-8.jpg",
-            "title": "Шарж",
-            "link": "#sharj"
-        }
-    ]
+  "styles": [
+    {
+      "src": "assets/img/styles-5.jpg",
+      "title": "Пастелью",
+      "link": "#pastel",
+      "id": "cbcd"
+    },
+    {
+      "src": "assets/img/styles-6.jpg",
+      "title": "Поп-арт",
+      "link": "#popart",
+      "id": "d80d"
+    },
+    {
+      "src": "assets/img/styles-7.png",
+      "title": "Фотомозаика",
+      "link": "#mozaika",
+      "id": "f728"
+    },
+    {
+      "src": "assets/img/styles-8.jpg",
+      "title": "Шарж",
+      "link": "#sharj",
+      "id": "c7bb"
+    }
+  ],
+  "designers": [
+    {
+      "id": "e1ca",
+      "upload": {},
+      "name": "ваываыв",
+      "phone": "+7 (343) 534 53 45",
+      "email": "girain3181@gmail.com",
+      "message": "ываываыв"
+    },
+    {
+      "id": "d8e6",
+      "upload": {},
+      "size": "1000",
+      "material": "100",
+      "options": "700"
+    }
+  ],
+  "questions": []
 }

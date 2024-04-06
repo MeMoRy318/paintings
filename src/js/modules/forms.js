@@ -15,8 +15,8 @@ const forms = () => {
   };
 
   const path = {
-    designer:'https://jsonplaceholder.typicode.com/posts',
-    question:'https://jsonplaceholder.typicode.com/posts'
+    designer:'http://localhost:3000/designers',
+    question:'http://localhost:3000/questions'
   };
 
   const cleaningFileName = () => {
@@ -61,7 +61,6 @@ const forms = () => {
       
 
       const data = Object.fromEntries(new FormData(item).entries());
-
       const api = data?.upload ? path.designer : path.question;
 
       postData(api,data)

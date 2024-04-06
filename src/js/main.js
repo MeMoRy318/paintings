@@ -1,3 +1,4 @@
+import calc from './modules/calc';
 import checkInputText from './modules/checkInputText';
 import forms from './modules/forms';
 import mask from './modules/mask';
@@ -22,4 +23,6 @@ window.addEventListener('DOMContentLoaded',()=>{
   mask('[name="phone"]','+7 (___) ___ __ __');
 
   showMoreStyle('.button-styles','.styles-2');
+
+  calc('#size','#material','#options','.promocode','.calc-price');
 });
