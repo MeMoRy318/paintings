@@ -1,5 +1,6 @@
 import calc from './modules/calc';
 import checkInputText from './modules/checkInputText';
+import filterPortfolio from './modules/filterPortfolio';
 import forms from './modules/forms';
 import mask from './modules/mask';
 import { modal, showWhenScrolling,showByTime } from './modules/modal';
@@ -25,4 +26,6 @@ window.addEventListener('DOMContentLoaded',()=>{
   showMoreStyle('.button-styles','.styles-2');
 
   calc('#size','#material','#options','.promocode','.calc-price');
+
+  filterPortfolio();
 });
