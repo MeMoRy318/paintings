@@ -1,4 +1,5 @@
 import accordion from './modules/accordion';
+import burgerMenu from './modules/burgerMenu';
 import calc from './modules/calc';
 import checkInputText from './modules/checkInputText';
 import filterPortfolio from './modules/filterPortfolio';
@@ -13,6 +14,7 @@ window.addEventListener('DOMContentLoaded',()=>{
   const modalState = {usedFlag:false}; 
 
   modal( '.button-design', '.popup-close', '.popup-design', false, modalState);
+  modal( '.button-consultation', '.popup-close', '.popup-consultation', false, modalState);
   modal( '.fixed-gift', '.popup-gift popup-close', '.popup-gift', true, modalState);
   showWhenScrolling('.fixed-gift','.footer', modalState);
   showByTime( '.button-design', 60000, modalState );
@@ -34,4 +36,6 @@ window.addEventListener('DOMContentLoaded',()=>{
   pictureSize();
 
   accordion('.accordion-heading','active-style','accordion-content');
+
+  burgerMenu('.burger','.burger-menu');
 });
