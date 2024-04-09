@@ -4,6 +4,7 @@ import filterPortfolio from './modules/filterPortfolio';
 import forms from './modules/forms';
 import mask from './modules/mask';
 import { modal, showWhenScrolling,showByTime } from './modules/modal';
+import pictureSize from './modules/pictureSize';
 import showMoreStyle from './modules/showMoreStyle';
 import sliders from './modules/sliders';
 
@@ -28,4 +29,6 @@ window.addEventListener('DOMContentLoaded',()=>{
   calc('#size','#material','#options','.promocode','.calc-price');
 
   filterPortfolio();
+
+  pictureSize();
 });
