@@ -1,3 +1,4 @@
+import accordion from './modules/accordion';
 import calc from './modules/calc';
 import checkInputText from './modules/checkInputText';
 import filterPortfolio from './modules/filterPortfolio';
@@ -31,4 +32,6 @@ window.addEventListener('DOMContentLoaded',()=>{
   filterPortfolio();
 
   pictureSize();
+
+  accordion('.accordion-heading','active-style','accordion-content');
 });
