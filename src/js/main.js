@@ -9,6 +9,7 @@ import { modal, showWhenScrolling,showByTime } from './modules/modal';
 import pictureSize from './modules/pictureSize';
 import showMoreStyle from './modules/showMoreStyle';
 import sliders from './modules/sliders';
+import smoothScrolling from './modules/smoothScrolling';
 
 window.addEventListener('DOMContentLoaded',()=>{
   const modalState = {usedFlag:false}; 
@@ -38,4 +39,7 @@ window.addEventListener('DOMContentLoaded',()=>{
   accordion('.accordion-heading','active-style','accordion-content');
 
   burgerMenu('.burger','.burger-menu');
+
+  smoothScrolling(0.3);
+  
 });
