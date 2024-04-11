@@ -4,6 +4,7 @@ import calc from './modules/calc';
 import checkInputText from './modules/checkInputText';
 import filterPortfolio from './modules/filterPortfolio';
 import forms from './modules/forms';
+import linkUp from './modules/linkUp';
 import mask from './modules/mask';
 import { modal, showWhenScrolling,showByTime } from './modules/modal';
 import pictureSize from './modules/pictureSize';
@@ -40,6 +41,7 @@ window.addEventListener('DOMContentLoaded',()=>{
 
   burgerMenu('.burger','.burger-menu');
 
-  smoothScrolling(0.3);
+  smoothScrolling(0.2);
   
+  linkUp('.pageup');
 });
